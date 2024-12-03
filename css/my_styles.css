@@ -1,0 +1,47 @@
+.ex_nav_box {
+  background-color: lightseagreen;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: 350px;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.in_nav_box {
+  background-color: lightseagreen;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.image-center {
+  position: absolute;
+  top: 100px;
+  left: 550px;
+  width: 400px;
+}
+
+.link {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.title {
+    text-align: center;
+  }
+
+body {
+    background-image: url(../images/blue-texture-pf-640x960.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
