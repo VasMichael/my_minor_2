@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Основной сайт</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/my_styles.css">
+        <style>
+            figcaption {
+                background-color: lightcoral;
+                padding: 10px;
+                border-radius: 5px}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">The world of python</h1>
+
+            <h1>Внешняя навигация</h1>
+            <div class="ex_nav_box">
+                <ol id="navigation">
+                    <li><a href="index.html" class="link active">Главная страница</a></li>
+                    <li><a href="form.html" class="link">Форма</a></li>
+                    <li><a href="thematic_form.html" class="link">Тематическая форма</a></li>
+                    <li><a href="https://coderun.yandex.ru/?clckid=929d62ae" class="link">CodeRun</a></li>
+                    <li><a href="https://www.python.org/community/logos/">
+                        <img src="../images/craiyon_172033_python_logo_programming.png" width="50" height="50" class="img-fluid" alt="Python Logo" title="Python logo">
+                    </a></li>
+                    <li><a href="index.html">
+                        <img src="../images/craiyon_174244_Adblock_vpn.png" width="50" height="50" class="img-fluid" alt="Adblock VPN">
+                    </a></li>
+                    <li><a href="#a_1" class="link">Перейти к первому заголовку</a></li>
+                </ol>
+            </div>
+
+            <h1>Внутренняя навигация</h1>
+            <div class="in_nav_box">
+                <ul>
+                    <li><a href="#a_1" class="link">Почему питон?</a></li>
+                    <li><a href="#a_2" class="link">Установка Python</a></li>
+                    <li><a href="#a_3" class="link">Hello world!</a></li>
+                    <li><a href="#a_4" class="link">Где применяется Python?</a></li>
+                </ul>
+            </div>
+
+            <img src="../images/python_logo.jpg" alt="Логотип Python" title="Логотип Python" class="img-fluid">
+
+            <h2><a id="a_1" class="link">Почему питон?</a></h2>
+            <p>Python стал популярным языком программирования по нескольким причинам:</p>
+            <ol>
+                <li><b>Простота и читаемость:</b> Python имеет простой и интуитивно понятный синтаксис...</li>
+                <li><b>Широкая сфера применения:</b> Python используется в самых разных областях...</li>
+            </ol>
+
+            <a href="../images/programming.jpg">
+                <img src="../images/programming.jpg" alt="Castle" class="img-fluid" width="100" height="67">
+            </a>
+
+            <h2><a id="a_2" class="link">Установка Python</a></h2>
+            <ol>
+                <li>Скачайте Python с официального сайта <a href="https://www.python.org/downloads/" class="link">python.org</a>.</li>
+                <li>Следуйте инструкциям для установки на вашу операционную систему.</li>
+                <li>Проверьте установку, запустив команду <code>python --version</code> в командной строке.</li>
+            </ol>
+
+            <figure>
+                <img src="../images/python_named.png" alt="Питон" class="img-fluid">
+                <figcaption><b>Программирование на питон</b></figcaption>
+            </figure>
+
+            <h2><a id="a_3" class="link">Hello world!</a></h2>
+            <p>Чтобы убедиться, что Python работает, можно выполнить простой код:</p>
+            <pre><code>print("Hello, World!")</code></pre>
+
+            <h2><a id="a_4" class="link">Где применяется Python?</a></h2>
+            <ul>
+                <li>Data Science</li>
+                <li>ML</li>
+                <li>AI</li>
+            </ul>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

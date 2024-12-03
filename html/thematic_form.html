@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тематическая форма</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/my_styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Внешняя навигация</h1>
+        <div class="ex_nav_box">
+            <ol id="navigation" class="list-unstyled">
+                <li><a href="index.html" class="link">Главная страница</a></li>
+                <li><a href="form.html" class="link">Форма</a></li>
+                <li><a href="thematic_form.html" class="link active">Тематическая форма</a></li>
+                <li><a href="https://coderun.yandex.ru/?clckid=929d62ae" target="_blank" class="link">CodeRun</a></li>
+                <li><a href="https://www.python.org/community/logos/" target="_blank">
+                    <img src="../images/craiyon_172033_python_logo_programming.png" width="50" height="50" class="img-fluid">
+                </a></li>
+                <li><a href="index.html">
+                    <img src="../images/craiyon_174244_Adblock_vpn.png" width="50" height="50" class="img-fluid">
+                </a></li>
+            </ol>
+        </div>
+
+        <div class="form mt-5">
+            <form action="https://yandex.ru/search/" method="get" target="_blank" class="form-group">
+                <p>Зарегистрируйтесь на нашем сайте</p>
+
+                <div class="form-group">
+                    <label for="login">Логин:</label>
+                    <input type="text" class="form-control" id="login" name="login" value="Михаил">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" class="form-control" id="password" name="password" value="Jksgyu26*cdj^k">
+                </div>
+                
+                <div class="form-group">
+                    <label for="age">Возраст:</label>
+                    <input type="number" class="form-control" id="age" name="age" min="1" max="120" value="18">
+                </div>
+
+                <div class="form-group">
+                    <label for="e-mail">Почта для отправки материалов по интересам:</label>
+                    <input type="text" class="form-control" id="e-mail" name="e-mail" value="vasilievmisha@gmail.com">
+                </div>
+
+                <p>Выберите язык, на котором вы хотели бы получать материалы</p>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" id="lang" name="language" value="english" checked>английский
+                    </label>
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" id="lang" name="language" value="russian">русский
+                    </label>
+                </div>
+
+                <p>Выберите интересующие вас темы:</p>
+                <div class="form-group">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="topic" value="Python basics" checked>Python basics
+                    </label>
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="topic" value="AI with Python" checked>AI with Python
+                    </label>
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="topic" value="Data_science with Python">Data Science with Python
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Выберите дату:</label>
+                    <input type="date" class="form-control" id="date" name="date" value="2024-11-01">
+                </div>
+
+                <div class="form-group">
+                    <label for="review">Ваши пожелания</label>
+                    <input type="text" class="form-control" id="review" name="review" value="Напишите здесь">
+                </div>
+
+                <input type="hidden" name="user_id" id="3467">
+                
+                <button type="submit">Отправить в поисковик</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

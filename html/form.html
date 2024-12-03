@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Форма для отправки на удаленный сервер</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/my_styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center my-4">Внешняя навигация</h1>
+            <div class="ex_nav_box">
+                <ol id="navigation">
+                    <li><a href="index.html" class="link">Главная страница</a></li>
+                    <li><a href="form.html" class="link active">Форма</a></li>
+                    <li><a href="thematic_form.html" class="link">Тематическая форма</a></li>
+                    <li><a href="https://coderun.yandex.ru/?clckid=929d62ae" target="_blank" class="link">CodeRun</a></li>
+                    <li><a href="https://www.python.org/community/logos/" target="_blank">
+                        <img src="../images/craiyon_172033_python_logo_programming.png" width="50" height="50" class="img-fluid">
+                    </a></li>
+                    <li><a href="index.html">
+                        <img src="../images/craiyon_174244_Adblock_vpn.png" width="50" height="50" class="img-fluid">
+                    </a></li>
+                </ol>
+            </div>
+
+            <div class="form mt-5">
+                <form action="https://yandex.ru/search/" method="get" target="_blank" class="form-group">
+                    <div class="form-group">
+                        <label for="username">Имя:</label>
+                        <input type="text" class="form-control" id="username" name="username" value="Михаил">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="surname">Фамилия:</label>
+                        <input type="text" class="form-control" id="surname" name="surname" value="Васильев">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="group">Группа:</label>
+                        <input type="number" class="form-control" id="group" name="group" value="3">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone_number">Номер телефона:</label>
+                        <input type="text" class="form-control" id="phone_number" name="phone_number" value="79033457678">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="e-mail">Электронная почта:</label>
+                        <input type="email" class="form-control" id="e-mail" name="e-mail" value="vasilievmisha@gmail.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Выберите дату:</label>
+                        <input type="date" class="form-control" id="date" name="date" value="2024-11-01">
+                    </div>
+
+                    <button type="submit">Отправить в поисковик</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
